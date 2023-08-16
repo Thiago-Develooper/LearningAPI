@@ -28,7 +28,7 @@ struct Perfil: View {
                 .bold()
                 .font(.title3)
             
-            Text(user?.bio ?? "N/A")
+            Text(user?.bio ?? "")
                         
             Spacer()
         }

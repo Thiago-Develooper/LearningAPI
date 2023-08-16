@@ -13,6 +13,7 @@ struct ContentView: View {
     @State private var userFollowers: [GitHubUser]?
     @State private var userFollowing: [GitHubUser]?
     @State private var login: String = "Thiago-Develooper"
+    @State private var followers: Bool = true
         
     var body: some View {
         VStack {
@@ -33,6 +34,47 @@ struct ContentView: View {
             
             Text(user?.bio ?? "")
             
+            HStack {
+                Spacer()
+
+                Button {
+                    followers = true
+                } label: {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 25.0)
+                            .foregroundColor(
+                                Color(.black)
+                            )
+                            .frame(width: 130, height: 40)
+                        Text("Followers")
+                            .foregroundColor(.white)
+                    }
+                }
+                
+                Spacer()
+                
+                Button {
+                    followers = false
+                } label: {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 25.0)
+                            .foregroundColor(
+                                Color(.black)
+                            )
+                            .frame(width: 130, height: 40)
+                        Text("Following")
+                            .foregroundColor(.white)
+
+                    }
+                }
+                
+                Spacer()
+
+            }
+            
+            
+
+            
 //            List {
 //                ForEach(userFollowing ?? [], id: \.self) { follower in
 //                    Text(follower.login)
@@ -40,13 +82,29 @@ struct ContentView: View {
 //            }
             
             ScrollView(showsIndicators: false) {
-                ForEach(userFollowing ?? [], id: \.self) { follower in
-//                    Perfil(user: userFollowing[follower])
+                
+                if followers {
+                    ForEach(userFollowing ?? [], id: \.self) { follower in
+    //                    Perfil(user: userFollowing[follower])
 
-//                    Text(follower.login)
-                    Perfil(user: follower)
-                    
+    //                    Text(follower.login)
+                        Perfil(user: follower)
+                        
+                    }
+                    .ignoresSafeArea(.all)
+                } else {
+                    ForEach(userFollowers ?? [], id: \.self) { follower in
+    //                    Perfil(user: userFollowing[follower])
+
+    //                    Text(follower.login)
+                        Perfil(user: follower)
+                        
+                    }
+                    .ignoresSafeArea(.all)
                 }
+
+                
+
             }
                 
             
