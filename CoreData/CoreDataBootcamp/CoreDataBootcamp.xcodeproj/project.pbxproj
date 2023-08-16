@@ -7,28 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF68FF8B2A86B0900079FC5A /* APIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68FF8A2A86B0900079FC5A /* APIApp.swift */; };
-		AF68FF8D2A86B0900079FC5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68FF8C2A86B0900079FC5A /* ContentView.swift */; };
-		AF68FF8F2A86B0920079FC5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF68FF8E2A86B0920079FC5A /* Assets.xcassets */; };
-		AF68FF922A86B0920079FC5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF68FF912A86B0920079FC5A /* Preview Assets.xcassets */; };
-		AFE2B5802A8A99C80017F485 /* cepAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2B57F2A8A99C80017F485 /* cepAPI.swift */; };
-		AFE2B59C2A8AAB360017F485 /* countryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2B59B2A8AAB360017F485 /* countryAPI.swift */; };
-		AFE2B5B82A8B93CB0017F485 /* gameOfThronesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2B5B72A8B93CB0017F485 /* gameOfThronesAPI.swift */; };
+		AFE2B5C62A8B9A5B0017F485 /* CoreDataBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2B5C52A8B9A5B0017F485 /* CoreDataBootcampApp.swift */; };
+		AFE2B5C82A8B9A5B0017F485 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2B5C72A8B9A5B0017F485 /* ContentView.swift */; };
+		AFE2B5CA2A8B9A5C0017F485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE2B5C92A8B9A5C0017F485 /* Assets.xcassets */; };
+		AFE2B5CD2A8B9A5D0017F485 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE2B5CC2A8B9A5C0017F485 /* Preview Assets.xcassets */; };
+		AFE2B5CF2A8B9A5D0017F485 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2B5CE2A8B9A5D0017F485 /* Persistence.swift */; };
+		AFE2B5D22A8B9A5D0017F485 /* CoreDataBootcamp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFE2B5D02A8B9A5D0017F485 /* CoreDataBootcamp.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF68FF872A86B0900079FC5A /* API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = API.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF68FF8A2A86B0900079FC5A /* APIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIApp.swift; sourceTree = "<group>"; };
-		AF68FF8C2A86B0900079FC5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AF68FF8E2A86B0920079FC5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AF68FF912A86B0920079FC5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AFE2B57F2A8A99C80017F485 /* cepAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cepAPI.swift; sourceTree = "<group>"; };
-		AFE2B59B2A8AAB360017F485 /* countryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countryAPI.swift; sourceTree = "<group>"; };
-		AFE2B5B72A8B93CB0017F485 /* gameOfThronesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameOfThronesAPI.swift; sourceTree = "<group>"; };
+		AFE2B5C22A8B9A5B0017F485 /* CoreDataBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE2B5C52A8B9A5B0017F485 /* CoreDataBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcampApp.swift; sourceTree = "<group>"; };
+		AFE2B5C72A8B9A5B0017F485 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFE2B5C92A8B9A5C0017F485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFE2B5CC2A8B9A5C0017F485 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFE2B5CE2A8B9A5D0017F485 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AFE2B5D12A8B9A5D0017F485 /* CoreDataBootcamp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataBootcamp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AF68FF842A86B0900079FC5A /* Frameworks */ = {
+		AFE2B5BF2A8B9A5B0017F485 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +36,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AF68FF7E2A86B0900079FC5A = {
+		AFE2B5B92A8B9A5B0017F485 = {
 			isa = PBXGroup;
 			children = (
-				AF68FF892A86B0900079FC5A /* API */,
-				AF68FF882A86B0900079FC5A /* Products */,
+				AFE2B5C42A8B9A5B0017F485 /* CoreDataBootcamp */,
+				AFE2B5C32A8B9A5B0017F485 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AF68FF882A86B0900079FC5A /* Products */ = {
+		AFE2B5C32A8B9A5B0017F485 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF68FF872A86B0900079FC5A /* API.app */,
+				AFE2B5C22A8B9A5B0017F485 /* CoreDataBootcamp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF68FF892A86B0900079FC5A /* API */ = {
+		AFE2B5C42A8B9A5B0017F485 /* CoreDataBootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				AF68FF8A2A86B0900079FC5A /* APIApp.swift */,
-				AF68FF8C2A86B0900079FC5A /* ContentView.swift */,
-				AFE2B57F2A8A99C80017F485 /* cepAPI.swift */,
-				AFE2B5B72A8B93CB0017F485 /* gameOfThronesAPI.swift */,
-				AFE2B59B2A8AAB360017F485 /* countryAPI.swift */,
-				AF68FF8E2A86B0920079FC5A /* Assets.xcassets */,
-				AF68FF902A86B0920079FC5A /* Preview Content */,
+				AFE2B5C52A8B9A5B0017F485 /* CoreDataBootcampApp.swift */,
+				AFE2B5C72A8B9A5B0017F485 /* ContentView.swift */,
+				AFE2B5C92A8B9A5C0017F485 /* Assets.xcassets */,
+				AFE2B5CE2A8B9A5D0017F485 /* Persistence.swift */,
+				AFE2B5D02A8B9A5D0017F485 /* CoreDataBootcamp.xcdatamodeld */,
+				AFE2B5CB2A8B9A5C0017F485 /* Preview Content */,
 			);
-			path = API;
+			path = CoreDataBootcamp;
 			sourceTree = "<group>";
 		};
-		AF68FF902A86B0920079FC5A /* Preview Content */ = {
+		AFE2B5CB2A8B9A5C0017F485 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				AF68FF912A86B0920079FC5A /* Preview Assets.xcassets */,
+				AFE2B5CC2A8B9A5C0017F485 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -79,39 +76,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF68FF862A86B0900079FC5A /* API */ = {
+		AFE2B5C12A8B9A5B0017F485 /* CoreDataBootcamp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF68FF952A86B0920079FC5A /* Build configuration list for PBXNativeTarget "API" */;
+			buildConfigurationList = AFE2B5D52A8B9A5D0017F485 /* Build configuration list for PBXNativeTarget "CoreDataBootcamp" */;
 			buildPhases = (
-				AF68FF832A86B0900079FC5A /* Sources */,
-				AF68FF842A86B0900079FC5A /* Frameworks */,
-				AF68FF852A86B0900079FC5A /* Resources */,
+				AFE2B5BE2A8B9A5B0017F485 /* Sources */,
+				AFE2B5BF2A8B9A5B0017F485 /* Frameworks */,
+				AFE2B5C02A8B9A5B0017F485 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = API;
-			productName = API;
-			productReference = AF68FF872A86B0900079FC5A /* API.app */;
+			name = CoreDataBootcamp;
+			productName = CoreDataBootcamp;
+			productReference = AFE2B5C22A8B9A5B0017F485 /* CoreDataBootcamp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AF68FF7F2A86B0900079FC5A /* Project object */ = {
+		AFE2B5BA2A8B9A5B0017F485 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					AF68FF862A86B0900079FC5A = {
+					AFE2B5C12A8B9A5B0017F485 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = AF68FF822A86B0900079FC5A /* Build configuration list for PBXProject "API" */;
+			buildConfigurationList = AFE2B5BD2A8B9A5B0017F485 /* Build configuration list for PBXProject "CoreDataBootcamp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,45 +116,44 @@
 				en,
 				Base,
 			);
-			mainGroup = AF68FF7E2A86B0900079FC5A;
-			productRefGroup = AF68FF882A86B0900079FC5A /* Products */;
+			mainGroup = AFE2B5B92A8B9A5B0017F485;
+			productRefGroup = AFE2B5C32A8B9A5B0017F485 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF68FF862A86B0900079FC5A /* API */,
+				AFE2B5C12A8B9A5B0017F485 /* CoreDataBootcamp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AF68FF852A86B0900079FC5A /* Resources */ = {
+		AFE2B5C02A8B9A5B0017F485 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF68FF922A86B0920079FC5A /* Preview Assets.xcassets in Resources */,
-				AF68FF8F2A86B0920079FC5A /* Assets.xcassets in Resources */,
+				AFE2B5CD2A8B9A5D0017F485 /* Preview Assets.xcassets in Resources */,
+				AFE2B5CA2A8B9A5C0017F485 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AF68FF832A86B0900079FC5A /* Sources */ = {
+		AFE2B5BE2A8B9A5B0017F485 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFE2B5B82A8B93CB0017F485 /* gameOfThronesAPI.swift in Sources */,
-				AF68FF8D2A86B0900079FC5A /* ContentView.swift in Sources */,
-				AFE2B59C2A8AAB360017F485 /* countryAPI.swift in Sources */,
-				AFE2B5802A8A99C80017F485 /* cepAPI.swift in Sources */,
-				AF68FF8B2A86B0900079FC5A /* APIApp.swift in Sources */,
+				AFE2B5CF2A8B9A5D0017F485 /* Persistence.swift in Sources */,
+				AFE2B5D22A8B9A5D0017F485 /* CoreDataBootcamp.xcdatamodeld in Sources */,
+				AFE2B5C82A8B9A5B0017F485 /* ContentView.swift in Sources */,
+				AFE2B5C62A8B9A5B0017F485 /* CoreDataBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AF68FF932A86B0920079FC5A /* Debug */ = {
+		AFE2B5D32A8B9A5D0017F485 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		AF68FF942A86B0920079FC5A /* Release */ = {
+		AFE2B5D42A8B9A5D0017F485 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,14 +267,14 @@
 			};
 			name = Release;
 		};
-		AF68FF962A86B0920079FC5A /* Debug */ = {
+		AFE2B5D62A8B9A5D0017F485 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"API/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CoreDataBootcamp/Preview Content\"";
 				DEVELOPMENT_TEAM = 5Y55P884H9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -292,7 +288,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = FirstProject.API;
+				PRODUCT_BUNDLE_IDENTIFIER = FirstProject.CoreDataBootcamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,14 +296,14 @@
 			};
 			name = Debug;
 		};
-		AF68FF972A86B0920079FC5A /* Release */ = {
+		AFE2B5D72A8B9A5D0017F485 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"API/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CoreDataBootcamp/Preview Content\"";
 				DEVELOPMENT_TEAM = 5Y55P884H9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -321,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = FirstProject.API;
+				PRODUCT_BUNDLE_IDENTIFIER = FirstProject.CoreDataBootcamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -332,25 +328,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF68FF822A86B0900079FC5A /* Build configuration list for PBXProject "API" */ = {
+		AFE2B5BD2A8B9A5B0017F485 /* Build configuration list for PBXProject "CoreDataBootcamp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF68FF932A86B0920079FC5A /* Debug */,
-				AF68FF942A86B0920079FC5A /* Release */,
+				AFE2B5D32A8B9A5D0017F485 /* Debug */,
+				AFE2B5D42A8B9A5D0017F485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF68FF952A86B0920079FC5A /* Build configuration list for PBXNativeTarget "API" */ = {
+		AFE2B5D52A8B9A5D0017F485 /* Build configuration list for PBXNativeTarget "CoreDataBootcamp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF68FF962A86B0920079FC5A /* Debug */,
-				AF68FF972A86B0920079FC5A /* Release */,
+				AFE2B5D62A8B9A5D0017F485 /* Debug */,
+				AFE2B5D72A8B9A5D0017F485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFE2B5D02A8B9A5D0017F485 /* CoreDataBootcamp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFE2B5D12A8B9A5D0017F485 /* CoreDataBootcamp.xcdatamodel */,
+			);
+			currentVersion = AFE2B5D12A8B9A5D0017F485 /* CoreDataBootcamp.xcdatamodel */;
+			path = CoreDataBootcamp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = AF68FF7F2A86B0900079FC5A /* Project object */;
+	rootObject = AFE2B5BA2A8B9A5B0017F485 /* Project object */;
 }

@@ -1,8 +1,28 @@
 import Foundation
 
+struct Address: Codable {
+    let zipcode: String
+    let address: String
+    let city: String
+    let uf: String
+    let complement: String?
+    
+    enum CodingKeys: String, CodingKey {
+        case zipcode = "cep"
+        case address = "logradouro"
+        case city = "localidade"
+        case uf
+        case complement = "complemento"
+    }
+}
+
+
+
+
 enum ServiceError: Error {
     case invalidURL
     case network(Error?)
+    case decodeFail(Error)
 }
 
 class Service {
@@ -32,10 +52,15 @@ class Service {
             //Se o código chegou até aqui a requisição foi recebida devemos tratar o JSON
             
             //Vamos transformar este dado em um objeto json.
-            let json = try? JSONSerialization.jsonObject(with: data, options: .allowFragments)  //fragmentos permite que a informação seja passada como um dicionary.
-            callback(.success(json))
+            
+            do {
+                let address = try JSONDecoder().decode(Address.self, from: data)
+                callback(.success(address))
+            } catch {
+                callback(.failure(.decodeFail(error)))
             }
-            task.resume()
+        }
+        task.resume()
     }
 }
 

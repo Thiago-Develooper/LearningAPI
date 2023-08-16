@@ -7,28 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF68FF8B2A86B0900079FC5A /* APIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68FF8A2A86B0900079FC5A /* APIApp.swift */; };
-		AF68FF8D2A86B0900079FC5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF68FF8C2A86B0900079FC5A /* ContentView.swift */; };
-		AF68FF8F2A86B0920079FC5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF68FF8E2A86B0920079FC5A /* Assets.xcassets */; };
-		AF68FF922A86B0920079FC5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF68FF912A86B0920079FC5A /* Preview Assets.xcassets */; };
-		AFE2B5802A8A99C80017F485 /* cepAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2B57F2A8A99C80017F485 /* cepAPI.swift */; };
-		AFE2B59C2A8AAB360017F485 /* countryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2B59B2A8AAB360017F485 /* countryAPI.swift */; };
-		AFE2B5B82A8B93CB0017F485 /* gameOfThronesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2B5B72A8B93CB0017F485 /* gameOfThronesAPI.swift */; };
+		AF7EC23D2A8D42CD00C313AF /* LearnGitHubAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7EC23C2A8D42CD00C313AF /* LearnGitHubAPIApp.swift */; };
+		AF7EC23F2A8D42CD00C313AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7EC23E2A8D42CD00C313AF /* ContentView.swift */; };
+		AF7EC2412A8D42CE00C313AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7EC2402A8D42CE00C313AF /* Assets.xcassets */; };
+		AF7EC2442A8D42CE00C313AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7EC2432A8D42CE00C313AF /* Preview Assets.xcassets */; };
+		AF7EC24D2A8D430400C313AF /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7EC24C2A8D430400C313AF /* Modal.swift */; };
+		AF7EC2522A8D6B7E00C313AF /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7EC2512A8D6B7E00C313AF /* Perfil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF68FF872A86B0900079FC5A /* API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = API.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF68FF8A2A86B0900079FC5A /* APIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIApp.swift; sourceTree = "<group>"; };
-		AF68FF8C2A86B0900079FC5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AF68FF8E2A86B0920079FC5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AF68FF912A86B0920079FC5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AFE2B57F2A8A99C80017F485 /* cepAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cepAPI.swift; sourceTree = "<group>"; };
-		AFE2B59B2A8AAB360017F485 /* countryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countryAPI.swift; sourceTree = "<group>"; };
-		AFE2B5B72A8B93CB0017F485 /* gameOfThronesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameOfThronesAPI.swift; sourceTree = "<group>"; };
+		AF7EC2392A8D42CD00C313AF /* LearnGitHubAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnGitHubAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7EC23C2A8D42CD00C313AF /* LearnGitHubAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnGitHubAPIApp.swift; sourceTree = "<group>"; };
+		AF7EC23E2A8D42CD00C313AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF7EC2402A8D42CE00C313AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF7EC2432A8D42CE00C313AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF7EC24C2A8D430400C313AF /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		AF7EC2512A8D6B7E00C313AF /* Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perfil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AF68FF842A86B0900079FC5A /* Frameworks */ = {
+		AF7EC2362A8D42CD00C313AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,80 +36,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AF68FF7E2A86B0900079FC5A = {
+		AF7EC2302A8D42CD00C313AF = {
 			isa = PBXGroup;
 			children = (
-				AF68FF892A86B0900079FC5A /* API */,
-				AF68FF882A86B0900079FC5A /* Products */,
+				AF7EC23B2A8D42CD00C313AF /* LearnGitHubAPI */,
+				AF7EC23A2A8D42CD00C313AF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AF68FF882A86B0900079FC5A /* Products */ = {
+		AF7EC23A2A8D42CD00C313AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF68FF872A86B0900079FC5A /* API.app */,
+				AF7EC2392A8D42CD00C313AF /* LearnGitHubAPI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF68FF892A86B0900079FC5A /* API */ = {
+		AF7EC23B2A8D42CD00C313AF /* LearnGitHubAPI */ = {
 			isa = PBXGroup;
 			children = (
-				AF68FF8A2A86B0900079FC5A /* APIApp.swift */,
-				AF68FF8C2A86B0900079FC5A /* ContentView.swift */,
-				AFE2B57F2A8A99C80017F485 /* cepAPI.swift */,
-				AFE2B5B72A8B93CB0017F485 /* gameOfThronesAPI.swift */,
-				AFE2B59B2A8AAB360017F485 /* countryAPI.swift */,
-				AF68FF8E2A86B0920079FC5A /* Assets.xcassets */,
-				AF68FF902A86B0920079FC5A /* Preview Content */,
+				AF7EC23C2A8D42CD00C313AF /* LearnGitHubAPIApp.swift */,
+				AF7EC23E2A8D42CD00C313AF /* ContentView.swift */,
+				AF7EC2502A8D6B6000C313AF /* Components */,
+				AF7EC24C2A8D430400C313AF /* Modal.swift */,
+				AF7EC2402A8D42CE00C313AF /* Assets.xcassets */,
+				AF7EC2422A8D42CE00C313AF /* Preview Content */,
 			);
-			path = API;
+			path = LearnGitHubAPI;
 			sourceTree = "<group>";
 		};
-		AF68FF902A86B0920079FC5A /* Preview Content */ = {
+		AF7EC2422A8D42CE00C313AF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				AF68FF912A86B0920079FC5A /* Preview Assets.xcassets */,
+				AF7EC2432A8D42CE00C313AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF7EC2502A8D6B6000C313AF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AF7EC2512A8D6B7E00C313AF /* Perfil.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF68FF862A86B0900079FC5A /* API */ = {
+		AF7EC2382A8D42CD00C313AF /* LearnGitHubAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF68FF952A86B0920079FC5A /* Build configuration list for PBXNativeTarget "API" */;
+			buildConfigurationList = AF7EC2472A8D42CE00C313AF /* Build configuration list for PBXNativeTarget "LearnGitHubAPI" */;
 			buildPhases = (
-				AF68FF832A86B0900079FC5A /* Sources */,
-				AF68FF842A86B0900079FC5A /* Frameworks */,
-				AF68FF852A86B0900079FC5A /* Resources */,
+				AF7EC2352A8D42CD00C313AF /* Sources */,
+				AF7EC2362A8D42CD00C313AF /* Frameworks */,
+				AF7EC2372A8D42CD00C313AF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = API;
-			productName = API;
-			productReference = AF68FF872A86B0900079FC5A /* API.app */;
+			name = LearnGitHubAPI;
+			productName = LearnGitHubAPI;
+			productReference = AF7EC2392A8D42CD00C313AF /* LearnGitHubAPI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AF68FF7F2A86B0900079FC5A /* Project object */ = {
+		AF7EC2312A8D42CD00C313AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					AF68FF862A86B0900079FC5A = {
+					AF7EC2382A8D42CD00C313AF = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = AF68FF822A86B0900079FC5A /* Build configuration list for PBXProject "API" */;
+			buildConfigurationList = AF7EC2342A8D42CD00C313AF /* Build configuration list for PBXProject "LearnGitHubAPI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,45 +124,44 @@
 				en,
 				Base,
 			);
-			mainGroup = AF68FF7E2A86B0900079FC5A;
-			productRefGroup = AF68FF882A86B0900079FC5A /* Products */;
+			mainGroup = AF7EC2302A8D42CD00C313AF;
+			productRefGroup = AF7EC23A2A8D42CD00C313AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF68FF862A86B0900079FC5A /* API */,
+				AF7EC2382A8D42CD00C313AF /* LearnGitHubAPI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AF68FF852A86B0900079FC5A /* Resources */ = {
+		AF7EC2372A8D42CD00C313AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF68FF922A86B0920079FC5A /* Preview Assets.xcassets in Resources */,
-				AF68FF8F2A86B0920079FC5A /* Assets.xcassets in Resources */,
+				AF7EC2442A8D42CE00C313AF /* Preview Assets.xcassets in Resources */,
+				AF7EC2412A8D42CE00C313AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AF68FF832A86B0900079FC5A /* Sources */ = {
+		AF7EC2352A8D42CD00C313AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFE2B5B82A8B93CB0017F485 /* gameOfThronesAPI.swift in Sources */,
-				AF68FF8D2A86B0900079FC5A /* ContentView.swift in Sources */,
-				AFE2B59C2A8AAB360017F485 /* countryAPI.swift in Sources */,
-				AFE2B5802A8A99C80017F485 /* cepAPI.swift in Sources */,
-				AF68FF8B2A86B0900079FC5A /* APIApp.swift in Sources */,
+				AF7EC23F2A8D42CD00C313AF /* ContentView.swift in Sources */,
+				AF7EC2522A8D6B7E00C313AF /* Perfil.swift in Sources */,
+				AF7EC24D2A8D430400C313AF /* Modal.swift in Sources */,
+				AF7EC23D2A8D42CD00C313AF /* LearnGitHubAPIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AF68FF932A86B0920079FC5A /* Debug */ = {
+		AF7EC2452A8D42CE00C313AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		AF68FF942A86B0920079FC5A /* Release */ = {
+		AF7EC2462A8D42CE00C313AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,14 +275,14 @@
 			};
 			name = Release;
 		};
-		AF68FF962A86B0920079FC5A /* Debug */ = {
+		AF7EC2482A8D42CE00C313AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"API/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LearnGitHubAPI/Preview Content\"";
 				DEVELOPMENT_TEAM = 5Y55P884H9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -292,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = FirstProject.API;
+				PRODUCT_BUNDLE_IDENTIFIER = FirstProject.LearnGitHubAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,14 +304,14 @@
 			};
 			name = Debug;
 		};
-		AF68FF972A86B0920079FC5A /* Release */ = {
+		AF7EC2492A8D42CE00C313AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"API/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LearnGitHubAPI/Preview Content\"";
 				DEVELOPMENT_TEAM = 5Y55P884H9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -321,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = FirstProject.API;
+				PRODUCT_BUNDLE_IDENTIFIER = FirstProject.LearnGitHubAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -332,25 +336,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF68FF822A86B0900079FC5A /* Build configuration list for PBXProject "API" */ = {
+		AF7EC2342A8D42CD00C313AF /* Build configuration list for PBXProject "LearnGitHubAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF68FF932A86B0920079FC5A /* Debug */,
-				AF68FF942A86B0920079FC5A /* Release */,
+				AF7EC2452A8D42CE00C313AF /* Debug */,
+				AF7EC2462A8D42CE00C313AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF68FF952A86B0920079FC5A /* Build configuration list for PBXNativeTarget "API" */ = {
+		AF7EC2472A8D42CE00C313AF /* Build configuration list for PBXNativeTarget "LearnGitHubAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF68FF962A86B0920079FC5A /* Debug */,
-				AF68FF972A86B0920079FC5A /* Release */,
+				AF7EC2482A8D42CE00C313AF /* Debug */,
+				AF7EC2492A8D42CE00C313AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AF68FF7F2A86B0900079FC5A /* Project object */;
+	rootObject = AF7EC2312A8D42CD00C313AF /* Project object */;
 }

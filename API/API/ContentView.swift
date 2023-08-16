@@ -41,7 +41,7 @@ struct ContentView: View {
         .padding()
         .task {
             do {
-                user = try await getUser()
+                user = try await getUser(userName: "Thiago-Develooper")
             } catch CHError.invalidURL {
                 print("invalid URL")
             } catch CHError.invalidResponse {
@@ -55,8 +55,8 @@ struct ContentView: View {
         
     }
     
-    func getUser() async throws -> GitHubUser {
-        let endpoint = "https://api.github.com/users/Thiago-Develooper"
+    func getUser(userName: String) async throws -> GitHubUser {
+        let endpoint = "https://api.github.com/users/\(userName)"
         
         guard let url = URL(string: endpoint) else {
             throw CHError.invalidURL
@@ -79,6 +79,10 @@ struct ContentView: View {
             throw CHError.invalidData
         }
     }
+    
+//    func getUserFollowers(userName: String) -> [String] {
+//
+//    }
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -93,6 +97,10 @@ struct GitHubUser: Codable {
     let bio: String?
     let type: String
     let followingUrl: String
+    
+//    func getUserFollowersLogins() -> [String] {
+//
+//    }
 }
 
 enum CHError: Error {
