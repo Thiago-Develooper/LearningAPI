@@ -80,31 +80,32 @@ struct ContentView: View {
 //                    Text(follower.login)
 //                }
 //            }
-            
-            ScrollView(showsIndicators: false) {
-                
-                if followers {
-                    ForEach(userFollowing ?? [], id: \.self) { follower in
-    //                    Perfil(user: userFollowing[follower])
-
-    //                    Text(follower.login)
-                        Perfil(user: follower)
-                        
+//            NavigationLink(<#LocalizedStringKey#>) {
+                ScrollView(showsIndicators: false) {
+                    
+                    if followers {
+                        ForEach(userFollowing ?? [], id: \.self) { follower in
+                            //                    Perfil(user: userFollowing[follower])
+                            
+                            //                    Text(follower.login)
+                            Perfil(user: follower)
+                            
+                        }
+                        .ignoresSafeArea(.all)
+                    } else {
+                        ForEach(userFollowers ?? [], id: \.self) { follower in
+                            //                    Perfil(user: userFollowing[follower])
+                            
+                            //                    Text(follower.login)
+                            Perfil(user: follower)
+                            
+                        }
+                        .ignoresSafeArea(.all)
                     }
-                    .ignoresSafeArea(.all)
-                } else {
-                    ForEach(userFollowers ?? [], id: \.self) { follower in
-    //                    Perfil(user: userFollowing[follower])
-
-    //                    Text(follower.login)
-                        Perfil(user: follower)
-                        
-                    }
-                    .ignoresSafeArea(.all)
-                }
-
-                
-
+                    
+                    
+                    
+//                }
             }
                 
             
@@ -120,9 +121,9 @@ struct ContentView: View {
                 
             } catch GHError.invalidURL {
                 print("Invalid URL")
-            } catch GHError.invalidURL {
-                print("Invalid response")
             } catch GHError.invalidData {
+                print("Invalid response")
+            } catch GHError.invalidResponce {
                 print("Invalid data")
             } catch {
                 print("Unexpected Error")
